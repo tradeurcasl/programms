@@ -10,3 +10,5 @@ Anyway here is the list of titles and little descriptions of them:
     b. py_mysql.py - is a mysqlDB version
     
 2) Volacanomap - it is a map which includes map of West USA volcanoes and population density (unfortunatly, I have found only json for 2005, but if I found newer dataset, I'll change my programm). It also has controller to change modes (volcanoe only, population only, vol+pop)
+
+3) Websiteblocker - block any site you want at your working hours! No more disctraction by facebook or twitter, or anything else. I've banneed yandex by this programm just for fun and example :D
