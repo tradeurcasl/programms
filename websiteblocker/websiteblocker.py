@@ -9,7 +9,7 @@ website_list = ['www.yandex.ru',
                 '*.yandex.*']
 
 while True:
-    if dt(dt.now().year, dt.now().month, dt.now().day, 9) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 17):
+    if dt(dt.now().year, dt.now().month, dt.now().day, 9) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 18):
         print('Working process')
         with open(path_to_hosts, 'r+') as file:
             content = file.read()
