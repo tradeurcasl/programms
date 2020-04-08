@@ -49,6 +49,8 @@ while True:
 
     key = cv2.waitKey(1)
 
+    #key to close programm by person
+
     if key == ord('q'):
         if status == 1:
             times.append(datetime.now())
