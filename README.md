@@ -14,3 +14,5 @@ Anyway here is the list of titles and little descriptions of them:
 3) Websiteblocker - block any site you want at your working hours! No more disctraction by facebook or twitter, or anything else. I've banneed yandex by this programm just for fun and example :D
 
 4) Converter - I was just testing tkinter in work so wanna create little programm to convert gram, kg, lbs and oz
+
+5) Motion_detector - create a programm (md.py) which detecting motions - hope I'll testing this with my cat in long term experiment. Also add plot-programm which represent by time and iterations how long/many times object was captured
