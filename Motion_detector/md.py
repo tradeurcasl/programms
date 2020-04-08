@@ -43,7 +43,7 @@ while True:
 
 
     cv2.imshow("Gray frame", gray)
-    cv2.imshow("Delta", delta_frame)
+    cv2.imshow("Delta", delta_frame) #showing which area new object overlaps
     cv2.imshow("Loss", thresh_frame)
     cv2.imshow("Color Frame",frame)
 
@@ -62,6 +62,7 @@ print(times)
 for i in range(0, len(times), 2):
     df = df.append({"Start": times[i], "End": times[i + 1]}, ignore_index=True)
 
+#add file in current directory
 df.to_csv("Times.csv")
 
 video.release()
